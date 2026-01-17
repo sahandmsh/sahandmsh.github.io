@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sahand Mosharafian - Software Engineer specializing in AI/ML, LLM-powered systems, and intelligent automation">
+    <title>Sahand Mosharafian | Software Engineer - AI/ML</title>
+
+    <style>
+        /* ===== Base Styles ===== */
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #000000;
+            line-height: 1.6;
+        }
+
+        body, 
+        body p, 
+        body h1, 
+        body h2, 
+        body h3, 
+        body h4, 
+        body ul, 
+        body ul li, 
+        body div {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+
+        /* ===== Typography ===== */
+        h1, h2, h3, h4 {
+            margin-top: 0;
+        }
+
+        h2 {
+            border-bottom: 1px solid #000000;
+            padding-bottom: 0.3rem;
+            margin-bottom: 1rem;
+        }
+
+        /* ===== Links ===== */
+        a {
+            color: #000;
+            text-decoration: none;
+            font-weight: normal;
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+
+        /* ===== Layout ===== */
+        .layout {
+            display: flex;
+            min-height: 100vh;
+        }
+
+        /* ===== Sidebar Styles ===== */
+        .sidebar {
+            width: 200px;
+            padding: 2rem 1rem;
+            background-color: #f4f4f4;
+            border-right: 1px solid #ccc;
+            flex-shrink: 0;
+        }
+
+        .sidebar h1 {
+            margin: 0 0 0.3rem 0;
+            font-size: 1.5rem;
+        }
+
+        .sidebar p {
+            margin: 0.3rem 0;
+        }
+
+        .profile-image-container {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .profile-circle {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
+        .sidebar-about p {
+            color: #000;
+            font-size: 0.95rem;
+            line-height: 1.4;
+            margin: 1rem 0;
+        }
+
+        /* ===== Navigation Styles ===== */
+        .sidebar nav {
+            margin-top: 1rem;
+        }
+
+        .sidebar nav a,
+        .sidebar nav div {
+            text-decoration: none;
+            color: #000000;
+            display: flex;
+            align-items: center;
+            margin: 0.5rem 0;
+            font-weight: normal;
+        }
+
+        .icon {
+            width: 18px;
+            height: 18px;
+            margin-right: 6px;
+            flex-shrink: 0;
+        }
+
+        /* ===== Main Content Styles ===== */
+        .main-content {
+            flex: 1;
+            padding: 2rem;
+            max-width: 900px;
+        }
+
+        section {
+            margin-bottom: 2.5rem;
+        }
+
+        /* ===== List Styles ===== */
+        ul {
+            padding-left: 1.2rem;
+        }
+
+        .main-content ul {
+            list-style-type: disc;
+            padding-left: 2rem;
+            margin: 0 0 1rem 0;
+        }
+
+        .main-content ul li {
+            margin-bottom: 0.4rem;
+        }
+
+        /* ===== Project Styles ===== */
+        .project-desc {
+            margin-top: 0.25rem;
+            font-size: 0.95rem;
+        }
+
+        /* ===== Footer ===== */
+        footer {
+            margin-top: 3rem;
+            font-size: 0.9rem;
+        }
+
+        /* ===== Responsive Design ===== */
+        @media (max-width: 768px) {
+            .layout {
+                flex-direction: column;
+            }
+            
+            .sidebar {
+                width: 100%;
+                border-right: none;
+                border-bottom: 1px solid #ccc;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="layout">
+        <!-- LEFT SIDEBAR -->
+        <aside class="sidebar">
+            <!-- Profile Photo -->
+            <div class="profile-image-container">
+                <img src="_profile_photo/profile.jpg" alt="Photo of Sahand Mosharafian" class="profile-circle">
+            </div>
+
+            <!-- Name and Title -->
+            <header>
+                <h1>Sahand Mosharafian, Ph.D.</h1>
+                <p>Software Engineer - AI/ML</p>
+            </header>
+
+            <!-- About Summary -->
+            <div class="sidebar-about">
+                <p>
+                    Building LLM-powered pipelines and agentic 
+                    AI workflows to optimize performance, reliability, and scalability in 
+                    production systems.
+                </p>
+            </div>
+
+            <!-- Contact and Social Links -->
+            <nav aria-label="Contact and social media">
+                <div>
+                    <img src="_icons/location_pin.svg" alt="Location" class="icon"> San Jose, CA
+                </div>
+                <a href="https://github.com/sahandmsh" target="_blank" rel="noopener noreferrer">
+                    <img src="_icons/github.svg" alt="GitHub" class="icon"> GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/sahand-mosharafian/" target="_blank" rel="noopener noreferrer">
+                    <img src="_icons/linkedin.svg" alt="LinkedIn" class="icon"> LinkedIn
+                </a>
+                <a href="https://scholar.google.com/citations?user=ujmldPAAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
+                    <img src="_icons/google_scholar.png" alt="Google Scholar" class="icon"> Google Scholar
+                </a>
+            </nav>
+
+            <!-- Section Navigation -->
+            <nav aria-label="Page sections">
+                <a href="#about">
+                    <img src="_icons/about_me.svg" alt="" class="icon"> About Me
+                </a>
+                <a href="#resume">
+                    <img src="_icons/resume.svg" alt="" class="icon"> Resume
+                </a>
+                <a href="#interests">
+                    <img src="_icons/interests.svg" alt="" class="icon"> Interests
+                </a>
+            </nav>
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <main class="main-content">
+            <!-- About Me Section -->
+            <section id="about">
+                <h2>About Me</h2>
+                <p>
+                    I am an AI/ML software engineer with hands-on experience building and 
+                    deploying LLM-powered systems, including retrieval-augmented generation 
+                    (RAG) pipelines, agentic AI workflows, and intelligent automation. 
+                    My work focuses on applying concepts in computer science and machine learning 
+                    to optimize real-world systems, with measurable impact on 
+                    performance, reliability, safety, and cost. I bring a strong engineering 
+                    mindset shaped by experience in large-scale automation, testing, 
+                    and system optimization, complemented by a solid foundation in 
+                    reinforcement learning and optimization. I enjoy turning advanced 
+                    AI ideas into practical, production-ready solutions that reduce manual 
+                    effort and scale effectively.
+                </p>
+            </section>
+
+            <!-- Resume Section -->
+            <section id="resume">
+                <h2>Resume</h2>
+
+                <!-- Skills -->
+                <article>
+                    <h3>Skills</h3>
+                    <ul>
+                        <li><strong>Programming:</strong> Python (PyTorch, Transformers, Faiss, Pywinauto, NumPy, Pandas, Keras, scikit-learn, CVXPY, Gurobi), C++</li>
+                        <li><strong>Optimization & Control:</strong> Mixed-Integer Programming, Model Predictive Control (MPC), Feedback Control, Stochastic & Hybrid MPC, Learning-based Control, Multi-Agent Systems</li>
+                        <li><strong>Computer Science & AI:</strong> Natural Language Processing (NLP), Custom Agent Orchestration, Retrieval-Augmented Generation (RAG), Tool-Using Agents, Algorithms, Data Structures, Test Automation, Machine Learning, Reinforcement Learning</li>
+                    </ul>
+                </article>
+
+                <!-- Education -->
+                <article>
+                    <h3>Education</h3>
+                    <ul>
+                        <li>Ph.D., Electrical & Computer Engineering – University of Georgia</li>
+                        <li>M.Sc., Electrical & Computer Engineering – University of Tehran</li>
+                    </ul>
+                </article>
+
+                <!-- Selected Projects -->
+                <article>
+                    <h3>Selected Projects</h3>
+                    <ul>
+                        <li>
+                            <a href="https://github.com/sahandmsh/self-correcting-qa-agent" target="_blank" rel="noopener noreferrer">
+                                <strong>Self-Correcting QA Agent</strong>
+                            </a>
+                            <div class="project-desc">
+                                Designed an autonomous question-answering agent that iteratively improves LLM responses through
+                                reasoning and self-correction using retrieval-augmented generation and transformer-based models.
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="https://github.com/sahandmsh/agentic-ai" target="_blank" rel="noopener noreferrer">
+                                <strong>Agentic AI with Automated Tool Routing</strong>
+                            </a>
+                            <div class="project-desc">
+                                Implemented an agentic system enabling an LLM to dynamically select between retrieval, web search,
+                                or direct reasoning pathways for task execution.
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="https://github.com/sahandmsh/retrieval-augmented-generation" target="_blank" rel="noopener noreferrer">
+                                <strong>Modular Retrieval-Augmented Generation (RAG) Pipeline</strong>
+                            </a>
+                            <div class="project-desc">
+                                Built a modular RAG pipeline featuring vector search, re-ranking, and dynamic indexing using FAISS
+                                and transformer-based language models.
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="https://github.com/sahandmsh/deep-learning-based-controller-design" target="_blank" rel="noopener noreferrer">
+                                <strong>Deep Learning-Based Control for Nonlinear Systems</strong>
+                            </a>
+                            <div class="project-desc">
+                                Developed a learning-based control framework for partially unknown nonlinear systems using neural
+                                networks and data-driven modeling techniques.
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="https://github.com/sahandmsh/cooperative-adaptive-cruise-control" target="_blank" rel="noopener noreferrer">
+                                <strong>Cooperative Adaptive Cruise Control Using Model Predictive Control</strong>
+                            </a>
+                            <div class="project-desc">
+                                Implemented a cooperative adaptive cruise control framework based on model predictive control for
+                                connected and automated vehicle platoons.
+                            </div>
+                        </li>
+                    </ul>
+                </article>
+            </section>
+
+            <!-- Interests Section -->
+            <section id="interests">
+                <h2>Interests and Hobbies</h2>
+                <ul>
+                    <li>
+                        I enjoy keeping up with new technology and gadgets, from phones and computers to home and audio systems.
+                    </li>
+                    <li>
+                        I like staying current with advances in computer science and AI, especially how new ideas turn into
+                        practical systems and tools.
+                    </li>
+                    <li>
+                        I enjoy hands-on DIY projects, from woodworking and building furniture to car care and detailing.
+                    </li>
+                    <li>
+                        Hiking and gym sessions are my way of staying active, challenging myself, and taking a break from screens.
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Footer -->
+            <footer>
+                <p>© 2026 Sahand Mosharafian</p>
+            </footer>
+        </main>
+    </div>
+</body>
+</html>
