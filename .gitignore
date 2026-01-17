@@ -1,0 +1,5 @@
+# Profile photos
+_profile_photo/
+
+# macOS system files
+.DS_Store
